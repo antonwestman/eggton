@@ -6,8 +6,8 @@ local direction_left = -1
 local anim_move, anim_jump, anim_idle, anim_fall = hash("Hero move"), hash("Hero jump"), hash("Hero idle"), hash("Hero fall")
 
 -- take-off speed when jumping in pixel units/s
-local jump_takeoff_speed = 200
-local horizontal_movement_speed = 110
+local jump_takeoff_speed = 500
+local horizontal_movement_speed = 400
 
 function init(self)
 	-- this tells the engine to send input to on_input() in this script
