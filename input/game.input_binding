@@ -1,0 +1,12 @@
+key_trigger {
+  input: KEY_SPACE
+  action: "hero jump"
+}
+key_trigger {
+  input: KEY_LEFT
+  action: "hero left"
+}
+key_trigger {
+  input: KEY_RIGHT
+  action: "hero right"
+}

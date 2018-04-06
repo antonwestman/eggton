@@ -1,0 +1,9 @@
+images {
+  image: "/ground/images/ground01.png"
+}
+images {
+  image: "/ground/images/ground02.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0

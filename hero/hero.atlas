@@ -1,0 +1,112 @@
+images {
+  image: "/hero/images/eggton_jump01.png"
+}
+images {
+  image: "/hero/images/eggton_jump02.png"
+}
+images {
+  image: "/hero/images/eggton_jump03.png"
+}
+images {
+  image: "/hero/images/eggton_jump04.png"
+}
+images {
+  image: "/hero/images/eggton_jump05.png"
+}
+images {
+  image: "/hero/images/eggton_moving01.png"
+}
+images {
+  image: "/hero/images/eggton_moving02.png"
+}
+images {
+  image: "/hero/images/eggton_moving03.png"
+}
+images {
+  image: "/hero/images/eggton_moving04.png"
+}
+images {
+  image: "/hero/images/eggton_moving05.png"
+}
+images {
+  image: "/hero/images/eggton_moving06.png"
+}
+images {
+  image: "/hero/images/eggton_moving07.png"
+}
+animations {
+  id: "Hero move"
+  images {
+    image: "/hero/images/eggton_moving01.png"
+  }
+  images {
+    image: "/hero/images/eggton_moving02.png"
+  }
+  images {
+    image: "/hero/images/eggton_moving03.png"
+  }
+  images {
+    image: "/hero/images/eggton_moving04.png"
+  }
+  images {
+    image: "/hero/images/eggton_moving05.png"
+  }
+  images {
+    image: "/hero/images/eggton_moving06.png"
+  }
+  images {
+    image: "/hero/images/eggton_moving07.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 6
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "Hero jump"
+  images {
+    image: "/hero/images/eggton_jump01.png"
+  }
+  images {
+    image: "/hero/images/eggton_jump02.png"
+  }
+  images {
+    image: "/hero/images/eggton_jump03.png"
+  }
+  playback: PLAYBACK_LOOP_PINGPONG
+  fps: 6
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "Hero idle"
+  images {
+    image: "/hero/images/eggton_unhatched01.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 2
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "Hero fall"
+  images {
+    image: "/hero/images/eggton_falling02.png"
+  }
+  images {
+    image: "/hero/images/eggton_falling04.png"
+  }
+  images {
+    image: "/hero/images/eggton_falling06.png"
+  }
+  images {
+    image: "/hero/images/eggton_falling05.png"
+  }
+  playback: PLAYBACK_LOOP_PINGPONG
+  fps: 6
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
