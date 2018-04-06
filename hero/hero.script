@@ -12,6 +12,8 @@ local horizontal_movement_speed = 400
 function init(self)
 	-- this tells the engine to send input to on_input() in this script
 	msg.post(".", "acquire_input_focus")
+	msg.post("camera", "acquire_camera_focus")
+
 
 	-- save the starting position
 	self.position = go.get_position()
@@ -27,6 +29,7 @@ end
 function final(self)
 	-- Return input focus when the object is deleted
 	msg.post(".", "release_input_focus")
+	msg.post("camera", "release_camera_focus")
 end
 
 local function play_animation(self, anim)
