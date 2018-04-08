@@ -1,11 +1,37 @@
 function init(self)
 	self.score = 0 
+	self.coins = {}
+	self.coin_proto_node = gui.get_node("coin_proto")
+	gui.set_enabled(self.coin_proto_node, false)	
+end
+
+
+local function update_coins(self, amount)
+	amount = #self.coins + 1 
+	while amount > #self.coins do
+		local coin = gui.clone(self.coin_proto_node)
+		gui.set_enabled(coin, true)
+		table.insert(self.coins, coin)
+	end
+
+	local pos = gui.get_position(self.coin_proto_node)
+	local size = gui.get_size(self.coin_proto_node)
+	for i=1,#self.coins do
+		gui.set_position(self.coins[i], pos)
+		pos.x = pos.x + size.x + 20
+	end
+
+	if amount == 3 then
+		msg.post("/script#level1", "level_done") 
+	end
 end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash("add_score") then 
-		self.score = self.score + message.score 
-		local scorenode = gui.get_node("score") 
-		gui.set_text(scorenode, "SCORE: " .. self.score) 
+		--self.score = self.score + message.score 
+		--local scorenode = gui.get_node("score") 
+		--gui.set_text(scorenode, "SCORE: " .. self.score) 
+	elseif message_id == hash("update_coins") then
+		update_coins(self, message.coins)
 	end 
 end

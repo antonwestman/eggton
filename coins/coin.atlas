@@ -1,6 +1,9 @@
 images {
   image: "/coins/images/coin.png"
 }
+images {
+  image: "/coins/images/no_coin.png"
+}
 margin: 0
 extrude_borders: 0
 inner_padding: 0

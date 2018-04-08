@@ -15,8 +15,8 @@ end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash("collision_response") then 
-		msg.post("/gui#score gui", "add_score", {score = 100}) 
-		msg.post("/script#level1", "level_done") 
+		msg.post("/gui#score gui", "add_score", {score = 100})
+		msg.post("/gui#score gui", "update_coins", {coins = 2}) 
 		go.delete() 
 	end
 end
