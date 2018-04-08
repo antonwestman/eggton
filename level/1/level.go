@@ -1,6 +1,6 @@
 components {
   id: "level"
-  component: "/level/level.tilemap"
+  component: "/level/1/level.tilemap"
   position {
     x: 0.0
     y: 0.0
@@ -16,13 +16,14 @@ components {
 embedded_components {
   id: "collisionobject"
   type: "collisionobject"
-  data: "collision_shape: \"/level/level.tilemap\"\n"
+  data: "collision_shape: \"/level/1/level.tilemap\"\n"
   "type: COLLISION_OBJECT_TYPE_STATIC\n"
   "mass: 0.0\n"
   "friction: 0.1\n"
   "restitution: 0.5\n"
   "group: \"geometry\"\n"
   "mask: \"hero\"\n"
+  "mask: \"geometry\"\n"
   "linear_damping: 0.0\n"
   "angular_damping: 0.0\n"
   "locked_rotation: false\n"

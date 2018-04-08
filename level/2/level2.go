@@ -1,6 +1,6 @@
 components {
   id: "level2"
-  component: "/level/level2.tilemap"
+  component: "/level/2/level2.tilemap"
   position {
     x: 0.0
     y: 0.0
@@ -16,7 +16,7 @@ components {
 embedded_components {
   id: "collisionobject"
   type: "collisionobject"
-  data: "collision_shape: \"/level/level2.tilemap\"\n"
+  data: "collision_shape: \"/level/2/level2.tilemap\"\n"
   "type: COLLISION_OBJECT_TYPE_STATIC\n"
   "mass: 0.0\n"
   "friction: 0.1\n"
