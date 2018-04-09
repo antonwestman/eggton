@@ -121,6 +121,26 @@ instances {
     z: 1.0
   }
 }
+instances {
+  id: "hero2"
+  prototype: "/hero/hero2.go"
+  position {
+    x: 358.0
+    y: 302.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.4
+    y: 0.4
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "gui"

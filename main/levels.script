@@ -18,14 +18,21 @@ function on_message(self, message_id, message, sender)
 	if message_id == hash("proxy_loaded") then
 		print("proxy_loaded", sender)
 		msg.post(sender, "enable")
+		pprint(sender.fragment)
+		--if self.players==1 and sender == "url: [main:/levels#level1_proxy" then
+		if self.players == 1  then
+			msg.post("level1:/script", "1p") 
+		end
 	elseif message_id == hash("proxy_unloaded") then
 		print("proxy_unloaded", sender)
 	elseif message_id == hash("start_game") then
 		msg.post("#start_proxy", "unload")
 		msg.post("#level1_proxy", "load")
+		self.players = 1
 	elseif message_id == hash("start_2_game") then
 		msg.post("#start_proxy", "unload")
 		msg.post("#level1_proxy", "load")
+		self.players = 2
 	elseif message_id == hash("level1_done") then
 		msg.post("#level1_proxy", "unload")
 		msg.post("#level2_proxy", "load")
