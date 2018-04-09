@@ -10,6 +10,10 @@ key_trigger {
   input: KEY_RIGHT
   action: "hero right"
 }
+key_trigger {
+  input: KEY_LSHIFT
+  action: "run"
+}
 mouse_trigger {
   input: MOUSE_BUTTON_1
   action: "click"
