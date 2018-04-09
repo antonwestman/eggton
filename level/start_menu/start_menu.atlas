@@ -1,0 +1,9 @@
+images {
+  image: "/level/start_menu/images/menu.png"
+}
+images {
+  image: "/level/start_menu/images/green_button08.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0

@@ -10,3 +10,7 @@ key_trigger {
   input: KEY_RIGHT
   action: "hero right"
 }
+mouse_trigger {
+  input: MOUSE_BUTTON_1
+  action: "click"
+}
