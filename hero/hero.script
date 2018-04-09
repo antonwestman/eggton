@@ -114,6 +114,7 @@ local function jump(self)
 	if self.ground_contact then
 		-- set take-off speed
 		self.velocity.y = jump_takeoff_speed
+		msg.post("#jump-sound", "play_sound")
 	end
 end
 
