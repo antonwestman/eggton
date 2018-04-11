@@ -7,6 +7,18 @@ images {
 images {
   image: "/level/presentation/images/christian.png"
 }
+images {
+  image: "/level/presentation/images/bagofcash.png"
+}
+images {
+  image: "/level/presentation/images/defoldlogo.png"
+}
+images {
+  image: "/level/presentation/images/kinglogo.png"
+}
+images {
+  image: "/level/presentation/images/releaseparty.png"
+}
 margin: 0
 extrude_borders: 0
 inner_padding: 0
