@@ -31,6 +31,9 @@ function on_message(self, message_id, message, sender)
 		msg.post("#start_proxy", "unload")
 		msg.post("#level1_proxy", "load")
 		self.players = 2
+	elseif message_id == hash("presentation") then
+		msg.post("#start_proxy", "unload")
+		msg.post("#presentation_proxy", "load")
 	elseif message_id == hash("complete_screen") then
 		msg.post("#complete_proxy", "load")
 	elseif message_id == hash("level1_done") then
