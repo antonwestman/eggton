@@ -325,7 +325,7 @@ instances {
   prototype: "/level/presentation/go/glossory/collection.go"
   position {
     x: 14896.0
-    y: 361.0
+    y: 307.0
     z: -1.0
   }
   rotation {
@@ -426,7 +426,7 @@ instances {
   position {
     x: 14966.0
     y: -395.0
-    z: 0.0
+    z: -100.0
   }
   rotation {
     x: 0.0
@@ -446,7 +446,7 @@ instances {
   position {
     x: 14739.0
     y: -517.0
-    z: 0.0
+    z: -100.0
   }
   rotation {
     x: 0.0
