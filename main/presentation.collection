@@ -121,32 +121,12 @@ instances {
   }
 }
 instances {
-  id: "lua code"
-  prototype: "/level/presentation/go/lua code.go"
-  position {
-    x: 1386.0
-    y: 433.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-instances {
   id: "atlas"
   prototype: "/level/presentation/go/glossory/atlas.go"
   position {
-    x: 345.0
-    y: 337.0
-    z: 0.0
+    x: 870.0
+    y: 233.0
+    z: 1000.0
   }
   rotation {
     x: 0.0

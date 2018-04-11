@@ -1,0 +1,7 @@
+
+function on_message(self, message_id, message, sender)
+	local id = go.get_id("script")
+	pos = go.get_position(id)
+	pos.z = 1
+	go.set_position(pos, id)
+end

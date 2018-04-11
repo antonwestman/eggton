@@ -44,6 +44,7 @@ embedded_components {
   "group: \"hero\"\n"
   "mask: \"geometry\"\n"
   "mask: \"box\"\n"
+  "mask: \"glossory\"\n"
   "embedded_collision_shape {\n"
   "  shapes {\n"
   "    shape_type: TYPE_SPHERE\n"
