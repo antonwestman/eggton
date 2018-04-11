@@ -1,6 +1,12 @@
 images {
   image: "/level/presentation/images/defold.png"
 }
+images {
+  image: "/level/presentation/images/ragnar.png"
+}
+images {
+  image: "/level/presentation/images/christian.png"
+}
 margin: 0
 extrude_borders: 0
 inner_padding: 0

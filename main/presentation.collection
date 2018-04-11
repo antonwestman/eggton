@@ -42,7 +42,7 @@ instances {
 }
 instances {
   id: "defold"
-  prototype: "/level/presentation/defold.go"
+  prototype: "/level/presentation/go/defold.go"
   position {
     x: 1675.0
     y: 387.0
@@ -57,6 +57,46 @@ instances {
   scale3 {
     x: 0.5
     y: 0.5
+    z: 1.0
+  }
+}
+instances {
+  id: "christian"
+  prototype: "/level/presentation/go/christian.go"
+  position {
+    x: 4772.0
+    y: 368.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.3
+    y: 0.3
+    z: 1.0
+  }
+}
+instances {
+  id: "ragnar"
+  prototype: "/level/presentation/go/ragnar.go"
+  position {
+    x: 4459.0
+    y: 375.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.4
+    y: 0.4
     z: 1.0
   }
 }
@@ -97,11 +137,37 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "go"
-  data: ""
+  id: "ragnar collision"
+  data: "embedded_components {\n"
+  "  id: \"collisionobject\"\n"
+  "  type: \"collisionobject\"\n"
+  "  data: \"collision_shape: \\\"\\\"\\n"
+  "type: COLLISION_OBJECT_TYPE_DYNAMIC\\n"
+  "mass: 1.0\\n"
+  "friction: 0.1\\n"
+  "restitution: 0.5\\n"
+  "group: \\\"default\\\"\\n"
+  "mask: \\\"default\\\"\\n"
+  "linear_damping: 0.0\\n"
+  "angular_damping: 0.0\\n"
+  "locked_rotation: false\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
   position {
-    x: 0.0
-    y: 0.0
+    x: 4150.0
+    y: 173.0
     z: 0.0
   }
   rotation {
