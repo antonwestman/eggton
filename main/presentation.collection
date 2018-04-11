@@ -364,8 +364,8 @@ instances {
   id: "game object"
   prototype: "/level/presentation/go/glossory/game object.go"
   position {
-    x: 15231.0
-    y: -245.0
+    x: 15474.0
+    y: 288.0
     z: -100.0
   }
   rotation {
@@ -384,8 +384,8 @@ instances {
   id: "script"
   prototype: "/level/presentation/go/glossory/script.go"
   position {
-    x: 15491.0
-    y: 325.0
+    x: 15471.0
+    y: -155.0
     z: -100.0
   }
   rotation {
@@ -404,8 +404,8 @@ instances {
   id: "sprite"
   prototype: "/level/presentation/go/glossory/sprite.go"
   position {
-    x: 14230.0
-    y: -346.0
+    x: 14979.0
+    y: -384.0
     z: -100.0
   }
   rotation {
@@ -424,8 +424,8 @@ instances {
   id: "tile map"
   prototype: "/level/presentation/go/glossory/tile map.go"
   position {
-    x: 14966.0
-    y: -395.0
+    x: 14725.0
+    y: -529.0
     z: -100.0
   }
   rotation {
@@ -444,8 +444,8 @@ instances {
   id: "tile source"
   prototype: "/level/presentation/go/glossory/tile source.go"
   position {
-    x: 14739.0
-    y: -517.0
+    x: 14219.0
+    y: -418.0
     z: -100.0
   }
   rotation {
