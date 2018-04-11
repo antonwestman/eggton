@@ -104,8 +104,8 @@ instances {
   id: "crate"
   prototype: "/crate/crate.go"
   position {
-    x: 9809.0
-    y: -194.0
+    x: 9064.0
+    y: -606.0
     z: 0.0
   }
   rotation {
@@ -144,9 +144,9 @@ instances {
   id: "atlas"
   prototype: "/level/presentation/go/glossory/atlas.go"
   position {
-    x: 9699.0
-    y: 889.0
-    z: 0.0
+    x: 13967.0
+    y: -238.0
+    z: -100.0
   }
   rotation {
     x: 0.0
@@ -155,8 +155,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 2.0
-    y: 2.0
+    x: 1.5
+    y: 1.5
     z: 1.0
   }
 }
@@ -246,6 +246,206 @@ instances {
   position {
     x: 11266.0
     y: -224.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.5
+    y: 1.5
+    z: 1.0
+  }
+}
+instances {
+  id: "eggton saga"
+  prototype: "/level/presentation/go/eggton saga.go"
+  position {
+    x: 7349.0
+    y: 473.0
+    z: -1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.3
+    y: 0.3
+    z: 1.0
+  }
+}
+instances {
+  id: "box2d"
+  prototype: "/level/presentation/go/box2d.go"
+  position {
+    x: 9141.0
+    y: -422.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin"
+  prototype: "/coins/coin.go"
+  position {
+    x: 9508.0
+    y: -538.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "collection"
+  prototype: "/level/presentation/go/glossory/collection.go"
+  position {
+    x: 14896.0
+    y: 361.0
+    z: -1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "collision object"
+  prototype: "/level/presentation/go/glossory/collision object.go"
+  position {
+    x: 15795.0
+    y: 67.0
+    z: -100.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "game object"
+  prototype: "/level/presentation/go/glossory/game object.go"
+  position {
+    x: 15231.0
+    y: -245.0
+    z: -100.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "script"
+  prototype: "/level/presentation/go/glossory/script.go"
+  position {
+    x: 15491.0
+    y: 325.0
+    z: -100.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "sprite"
+  prototype: "/level/presentation/go/glossory/sprite.go"
+  position {
+    x: 14230.0
+    y: -346.0
+    z: -100.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "tile map"
+  prototype: "/level/presentation/go/glossory/tile map.go"
+  position {
+    x: 14966.0
+    y: -395.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.5
+    y: 1.5
+    z: 1.0
+  }
+}
+instances {
+  id: "tile source"
+  prototype: "/level/presentation/go/glossory/tile source.go"
+  position {
+    x: 14739.0
+    y: -517.0
     z: 0.0
   }
   rotation {
