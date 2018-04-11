@@ -49,6 +49,9 @@ images {
 images {
   image: "/level/presentation/images/glossory/tilesource.png"
 }
+images {
+  image: "/level/presentation/images/box2d.png"
+}
 margin: 0
 extrude_borders: 0
 inner_padding: 0
