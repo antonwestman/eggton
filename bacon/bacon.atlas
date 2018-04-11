@@ -1,0 +1,22 @@
+images {
+  image: "/bacon/images/baconas1.png"
+}
+images {
+  image: "/bacon/images/baconas2.png"
+}
+animations {
+  id: "Dance"
+  images {
+    image: "/bacon/images/baconas1.png"
+  }
+  images {
+    image: "/bacon/images/baconas2.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 6
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
