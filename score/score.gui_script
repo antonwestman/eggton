@@ -22,7 +22,8 @@ local function update_coins(self, amount)
 	end
 
 	if amount == 3 then
-		msg.post("/script#level1", "level_done") 
+		msg.post("main:/levels", "complete_screen")
+		msg.post("hero#script", "level_done")		
 	end
 end
 

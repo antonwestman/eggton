@@ -16,7 +16,7 @@ function on_message(self, message_id, message, sender)
 	if message_id == hash("level_done") then
 		msg.post("main:/levels", "level1_done")
 	elseif message_id == hash("1p") then
-		local id = go.get_id("hero2") -- retrieve the id of the game object to be deleted
+		local id = go.get_id("hero2")
 		go.delete(id)
 	end 
 end

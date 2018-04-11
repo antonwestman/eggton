@@ -108,6 +108,9 @@ function on_message(self, message_id, message, sender)
 		if message.group == hash("geometry") then
 			handle_geometry_contact(self, message.normal, message.distance)
 		end
+	elseif message_id == hash("level_done") then
+		msg.post(".", "release_input_focus")
+
 	end
 end
 

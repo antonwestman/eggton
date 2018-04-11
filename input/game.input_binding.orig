@@ -1,0 +1,33 @@
+key_trigger {
+  input: KEY_SPACE
+  action: "hero jump"
+}
+key_trigger {
+  input: KEY_LEFT
+  action: "hero left"
+}
+key_trigger {
+  input: KEY_RIGHT
+  action: "hero right"
+}
+key_trigger {
+<<<<<<< HEAD
+  input: KEY_LSHIFT
+  action: "run"
+=======
+  input: KEY_A
+  action: "hero2 left"
+}
+key_trigger {
+  input: KEY_D
+  action: "hero2 right"
+}
+key_trigger {
+  input: KEY_W
+  action: "hero2 jump"
+>>>>>>> Coop features
+}
+mouse_trigger {
+  input: MOUSE_BUTTON_1
+  action: "click"
+}
