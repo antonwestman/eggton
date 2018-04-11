@@ -1,0 +1,6 @@
+images {
+  image: "/level/presentation/images/defold.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
