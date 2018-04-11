@@ -19,6 +19,12 @@ images {
 images {
   image: "/level/presentation/images/releaseparty.png"
 }
+images {
+  image: "/level/presentation/images/lua.png"
+}
+images {
+  image: "/level/presentation/images/lua code.png"
+}
 margin: 0
 extrude_borders: 0
 inner_padding: 0
