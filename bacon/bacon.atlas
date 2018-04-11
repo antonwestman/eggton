@@ -17,6 +17,37 @@ animations {
   flip_horizontal: 0
   flip_vertical: 0
 }
+animations {
+  id: "New Bacon 2"
+  images {
+    image: "/bacon/images/frame_0_delay-0.08s.png"
+  }
+  images {
+    image: "/bacon/images/frame_1_delay-0.08s.png"
+  }
+  images {
+    image: "/bacon/images/frame_2_delay-0.08s.png"
+  }
+  images {
+    image: "/bacon/images/frame_3_delay-0.08s.png"
+  }
+  images {
+    image: "/bacon/images/frame_4_delay-0.08s.png"
+  }
+  images {
+    image: "/bacon/images/frame_5_delay-0.08s.png"
+  }
+  images {
+    image: "/bacon/images/frame_6_delay-0.08s.png"
+  }
+  images {
+    image: "/bacon/images/frame_7_delay-0.08s.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 15
+  flip_horizontal: 0
+  flip_vertical: 0
+}
 margin: 0
 extrude_borders: 0
 inner_padding: 0
