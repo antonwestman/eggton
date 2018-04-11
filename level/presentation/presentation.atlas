@@ -53,7 +53,7 @@ images {
   image: "/level/presentation/images/box2d.png"
 }
 images {
-  image: "/level/presentation/images/eggtonsaga.png"
+  image: "/level/presentation/images/billboard.png"
 }
 margin: 0
 extrude_borders: 0

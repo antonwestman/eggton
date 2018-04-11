@@ -2,7 +2,7 @@ embedded_components {
   id: "sprite"
   type: "sprite"
   data: "tile_set: \"/level/presentation/presentation.atlas\"\n"
-  "default_animation: \"eggtonsaga\"\n"
+  "default_animation: \"billboard\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""

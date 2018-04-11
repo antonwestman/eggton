@@ -264,8 +264,8 @@ instances {
   id: "eggton saga"
   prototype: "/level/presentation/go/eggton saga.go"
   position {
-    x: 7349.0
-    y: 473.0
+    x: 7348.0
+    y: 369.0
     z: 0.0
   }
   rotation {
@@ -275,8 +275,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 0.3
-    y: 0.3
+    x: 0.545
+    y: 0.498
     z: 1.0
   }
 }
