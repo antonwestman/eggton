@@ -104,8 +104,8 @@ instances {
   id: "crate"
   prototype: "/crate/crate.go"
   position {
-    x: 8392.0
-    y: 186.0
+    x: 9809.0
+    y: -194.0
     z: 0.0
   }
   rotation {
@@ -121,12 +121,32 @@ instances {
   }
 }
 instances {
+  id: "lua code"
+  prototype: "/level/presentation/go/lua code.go"
+  position {
+    x: 12705.0
+    y: -184.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.9
+    y: 0.9
+    z: 1.0
+  }
+}
+instances {
   id: "atlas"
   prototype: "/level/presentation/go/glossory/atlas.go"
   position {
-    x: 870.0
-    y: 233.0
-    z: 1000.0
+    x: 9699.0
+    y: 889.0
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -217,6 +237,26 @@ instances {
   scale3 {
     x: 0.7
     y: 0.7
+    z: 1.0
+  }
+}
+instances {
+  id: "lua"
+  prototype: "/level/presentation/go/lua.go"
+  position {
+    x: 11266.0
+    y: -224.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.5
+    y: 1.5
     z: 1.0
   }
 }
