@@ -580,6 +580,86 @@ instances {
     z: 1.0
   }
 }
+instances {
+  id: "crate1"
+  prototype: "/crate/crate.go"
+  position {
+    x: 13184.0
+    y: -408.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "coin4"
+  prototype: "/coins/coin.go"
+  position {
+    x: 10368.0
+    y: -23.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.0
+    y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "crate2"
+  prototype: "/crate/crate.go"
+  position {
+    x: 13184.0
+    y: -279.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "crate3"
+  prototype: "/crate/crate.go"
+  position {
+    x: 13184.0
+    y: -162.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "camera"
