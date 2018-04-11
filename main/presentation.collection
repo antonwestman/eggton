@@ -3,9 +3,9 @@ instances {
   id: "presenation"
   prototype: "/level/presentation/presenation.go"
   position {
-    x: -3.0
+    x: -8.0
     y: 0.0
-    z: -1.0
+    z: 0.0
   }
   rotation {
     x: 0.0
@@ -26,7 +26,7 @@ instances {
   position {
     x: 179.0
     y: 374.0
-    z: 0.0
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -44,9 +44,9 @@ instances {
   id: "defold"
   prototype: "/level/presentation/go/defold.go"
   position {
-    x: 1675.0
-    y: 387.0
-    z: 0.0
+    x: 1015.0
+    y: 380.0
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -55,8 +55,8 @@ instances {
     w: 1.0
   }
   scale3 {
-    x: 0.5
-    y: 0.5
+    x: 1.132
+    y: 1.073
     z: 1.0
   }
 }
@@ -64,7 +64,7 @@ instances {
   id: "christian"
   prototype: "/level/presentation/go/christian.go"
   position {
-    x: 4772.0
+    x: 3420.0
     y: 368.0
     z: 0.0
   }
@@ -84,7 +84,7 @@ instances {
   id: "ragnar"
   prototype: "/level/presentation/go/ragnar.go"
   position {
-    x: 4459.0
+    x: 3107.0
     y: 375.0
     z: 0.0
   }
@@ -137,6 +137,86 @@ instances {
   scale3 {
     x: 2.0
     y: 2.0
+    z: 1.0
+  }
+}
+instances {
+  id: "agenda"
+  prototype: "/level/presentation/go/agenda.go"
+  position {
+    x: 2132.0
+    y: 510.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.6
+    y: 0.6
+    z: 1.0
+  }
+}
+instances {
+  id: "kinglogo"
+  prototype: "/level/presentation/go/kinglogo.go"
+  position {
+    x: 4501.0
+    y: 624.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.5
+    y: 0.5
+    z: 1.0
+  }
+}
+instances {
+  id: "bagofcash"
+  prototype: "/level/presentation/go/bagofcash.go"
+  position {
+    x: 5139.0
+    y: 642.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.2
+    y: 1.2
+    z: 1.0
+  }
+}
+instances {
+  id: "releaseparty"
+  prototype: "/level/presentation/go/releaseparty.go"
+  position {
+    x: 6099.0
+    y: 429.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.7
+    y: 0.7
     z: 1.0
   }
 }

@@ -2,7 +2,7 @@ function init(self)
 	msg.post(".", "acquire_input_focus")
 	
 	msg.post("#start_proxy", "load")
---	msg.post("#level1_proxy", "load")
+	msg.post("#level2_proxy", "unload")
 end
 
 function final(self)

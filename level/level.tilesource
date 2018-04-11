@@ -63,7 +63,7 @@ convex_hulls {
 convex_hulls {
   index: 30
   count: 16
-  collision_group: ""
+  collision_group: "geometry"
 }
 convex_hulls {
   index: 46
@@ -300,5 +300,5 @@ animations {
   flip_horizontal: 0
   flip_vertical: 0
 }
-extrude_borders: 0
+extrude_borders: 1
 inner_padding: 0

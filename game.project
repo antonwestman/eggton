@@ -18,6 +18,7 @@ fullscreen = 0
 [physics]
 scale = 0.02
 debug = 0
+gravity_y = -20.0
 
 [script]
 shared_state = 1
