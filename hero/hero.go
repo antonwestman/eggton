@@ -16,10 +16,13 @@ components {
 embedded_components {
   id: "sprite"
   type: "sprite"
-  data: "tile_set: \"/hero/hero.atlas\"\n"
-  "default_animation: \"Hero idle\"\n"
+  data: "default_animation: \"Hero idle\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
+  "textures {\n"
+  "  sampler: \"texture_sampler\"\n"
+  "  texture: \"/hero/hero.atlas\"\n"
+  "}\n"
   ""
   position {
     x: 0.0
@@ -60,6 +63,7 @@ embedded_components {
   "    }\n"
   "    index: 0\n"
   "    count: 1\n"
+  "    id: \"\"\n"
   "  }\n"
   "  shapes {\n"
   "    shape_type: TYPE_SPHERE\n"
@@ -76,6 +80,7 @@ embedded_components {
   "    }\n"
   "    index: 1\n"
   "    count: 1\n"
+  "    id: \"\"\n"
   "  }\n"
   "  shapes {\n"
   "    shape_type: TYPE_BOX\n"
@@ -92,6 +97,7 @@ embedded_components {
   "    }\n"
   "    index: 2\n"
   "    count: 3\n"
+  "    id: \"\"\n"
   "  }\n"
   "  shapes {\n"
   "    shape_type: TYPE_BOX\n"
@@ -108,6 +114,7 @@ embedded_components {
   "    }\n"
   "    index: 5\n"
   "    count: 3\n"
+  "    id: \"\"\n"
   "  }\n"
   "  data: 93.162\n"
   "  data: 68.155\n"
@@ -121,6 +128,7 @@ embedded_components {
   "linear_damping: 0.0\n"
   "angular_damping: 0.0\n"
   "locked_rotation: false\n"
+  "bullet: false\n"
   ""
   position {
     x: 0.0
@@ -141,6 +149,9 @@ embedded_components {
   "looping: 0\n"
   "group: \"master\"\n"
   "gain: 0.1\n"
+  "pan: 0.0\n"
+  "speed: 1.0\n"
+  "loopcount: 0\n"
   ""
   position {
     x: 0.0

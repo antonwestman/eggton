@@ -1,10 +1,13 @@
 embedded_components {
   id: "sprite"
   type: "sprite"
-  data: "tile_set: \"/crate/crate.atlas\"\n"
-  "default_animation: \"Crate\"\n"
+  data: "default_animation: \"Crate\"\n"
   "material: \"/builtins/materials/sprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
+  "textures {\n"
+  "  sampler: \"texture_sampler\"\n"
+  "  texture: \"/crate/crate.atlas\"\n"
+  "}\n"
   ""
   position {
     x: 0.0
@@ -45,6 +48,7 @@ embedded_components {
   "    }\n"
   "    index: 0\n"
   "    count: 3\n"
+  "    id: \"\"\n"
   "  }\n"
   "  data: 51.537\n"
   "  data: 49.7955\n"
@@ -53,6 +57,7 @@ embedded_components {
   "linear_damping: 0.0\n"
   "angular_damping: 0.0\n"
   "locked_rotation: false\n"
+  "bullet: false\n"
   ""
   position {
     x: 0.0
